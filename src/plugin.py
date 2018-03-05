@@ -310,7 +310,7 @@ def runCleanup():
 
 class FullBackupConfig(ConfigListScreen,Screen):
 	skin = """
-<screen position="center,center" size="640,455" title="FullBackup Configuration" >
+<screen name="AFB_Configuration" position="center,center" size="640,455" title="FullBackup Configuration" >
 	<ePixmap name="red"    position="0,0"   zPosition="2" size="140,40" pixmap="skin_default/buttons/red.png" transparent="1" alphatest="on" />
 	<ePixmap name="green"  position="160,0" zPosition="2" size="140,40" pixmap="skin_default/buttons/green.png" transparent="1" alphatest="on" />
 	<ePixmap name="yellow" position="320,0" zPosition="2" size="140,40" pixmap="skin_default/buttons/yellow.png" transparent="1" alphatest="on" />
@@ -1520,7 +1520,7 @@ class AutoStartTimer:
 
 class DaysProfile(ConfigListScreen,Screen):
 	skin = """
-			<screen position="center,center" size="400,230" title="Days Profile" >
+		<screen name="AFB_DaysProfile" position="center,center" size="400,230" title="Days Profile" >
 			<widget name="config" position="0,0" size="400,180" scrollbarMode="showOnDemand" />
 			<widget name="key_red" position="0,190" size="140,40" valign="center" halign="center" zPosition="4"  foregroundColor="white" font="Regular;18" transparent="1"/> 
 			<widget name="key_green" position="140,190" size="140,40" valign="center" halign="center" zPosition="4"  foregroundColor="white" font="Regular;18" transparent="1"/> 
